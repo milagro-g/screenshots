@@ -24,7 +24,7 @@
    color:#1b8cfc;
 }
 
-.messages-history{
+#messages-history{
   font-family: "Helvetica Neue";
 	font-size: 20px;
 	font-weight: normal;
@@ -32,7 +32,7 @@
   flex-direction: column;
 }
 
-.sent{
+#sent{
   background-color: #1b8cfc;
   color:white;
 	align-self: flex-end;
@@ -45,7 +45,7 @@
   color:#1b8cfc;
 }
 
-.received{
+#received{
   background-color: #e6e5eb;
   align-self: flex-start;
   border-radius: 25px;
@@ -53,13 +53,13 @@
   font-size: 15px
 }
 
-.delivered-grey-text{
+#delivered-grey-text{
   display:flex;
   justify-content: flex-end;
   color:gray;
 }
 
-.delivered-grey-text,.imessage-grey-text{
+#delivered-grey-text,.imessage-grey-text{
   font-size: 13px;
   color:gray;
 }
